@@ -43,6 +43,7 @@ int main()
         cout << "3. Perkalian" << endl;
         cout << "4. Pembagian" << endl;
         cout << "5. Keluar" << endl;
+        cout << "Masukkan pilihan : ";
         cin >> pilihan; 
 
         switch (pilihan)
