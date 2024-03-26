@@ -15,6 +15,10 @@ int perkalian(int a, int b) {
     return a * b;
 }
 
+float pembagian() {
+    return a / b;
+}
+
 int main(){
     
 }
