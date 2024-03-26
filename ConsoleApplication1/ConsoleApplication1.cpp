@@ -43,6 +43,15 @@ int main()
         cout << "3. Perkalian" << endl;
         cout << "4. Pembagian" << endl;
         cout << "5. Keluar" << endl;
-        cin >> pilihan;     
+        cin >> pilihan; 
+
+        switch (pilihan)
+        {
+        case 1:
+            inputdata();
+            cout << "\nHasil penjumlahan :" << penjumlahan(bilangan1, bilangan2) << endl;
+            system("pause");
+            break;
+        }
     }
 }
